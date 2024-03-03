@@ -4,7 +4,7 @@ from bson import ObjectId
 
 # connecting to MongoServer
 try:
-    client = MongoClient("mongodb+srv://souravbhowal15:sourav2003@backend1.kmkr3ik.mongodb.net/")  
+    client = MongoClient("<your URI>")  
 # Not a good idea to include id and password in code files
 except:
     raise Exception("Cannot connect to MongoServer") 
